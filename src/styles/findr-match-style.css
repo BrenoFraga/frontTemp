@@ -1,0 +1,62 @@
+.content-match{
+    width: 80%;
+    height: 550px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+
+.container-match{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.match-refused{
+    width: 14%;
+    height: 150px;
+    background-color: white;
+    margin-top: 15%;
+    border-radius: 100px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.match-refused i{
+    width: 100%;
+    display: flex;
+    font-size: 50px;
+    margin-top: 25%;
+    justify-content: center;
+}
+
+.match-refused i:before{
+    color: red !important;
+}
+
+.match-accepted{
+    width: 14%;
+    height: 150px;
+    background-color: white;
+    margin-top: 15%;
+    border-radius: 100px;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.match-accepted i{
+    width: 100%;
+    display: flex;
+    font-size: 50px;
+    margin-top: 25%;
+    justify-content: center;
+}
+
+.match-accepted i:before{
+    color: green !important;
+}
+
+
+
