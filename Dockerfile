@@ -1,8 +1,7 @@
 FROM mhart/alpine-node:14
 
-WORKDIR /app
+WORKDIR /usr/src/findr
 
-ENV PATH /node_modules/.bin:$PATH
 
 COPY package*.json ./
 
