@@ -1,6 +1,8 @@
 FROM mhart/alpine-node:14
 
-WORKDIR /usr/src/taurus
+WORKDIR /app
+
+ENV PATH /app/node_modules/.bin:$PATH
 
 COPY package*.json ./
 
