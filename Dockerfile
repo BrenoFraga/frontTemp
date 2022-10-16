@@ -2,7 +2,7 @@ FROM mhart/alpine-node:14
 
 WORKDIR /app
 
-ENV PATH /app/node_modules/.bin:$PATH
+ENV PATH /node_modules/.bin:$PATH
 
 COPY package*.json ./
 
